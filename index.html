@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="logo.jpg"  class="logo">
+                 <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DEVELOPER</p>
+                <h1>HI, I'm <span>VAISHNAVI </span><br>ORUGANTI from Kadapa</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="my.jpg" alt="" class="i">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sun-title">About me</h1>
+                    <p>I am a passionate and skilled web developer with expertise in crafting dynamic and user-centric web applications.
+                         My background includes hands-on experience with HTML, CSS, and JavaScript, enabling me to build responsive and interactive websites and tools.
+                          I specialize in creating engaging user interfaces and developing data-driven solutions, including recommendation systems and content-driven applications. 
+                          I thrive on solving complex problems and continuously improving user experiences. With a strong foundation in both front-end and back-end technologies.</p>
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('EXPERIENCE')">EXPERIENCE </p>
+                        <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="SKILLS" >
+                         <ul>
+                            <li><span>Java</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>C Language</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>Java Script</span></li>
+
+
+                         </ul>
+                       </div>
+                       <div class="tab-contents" id="EXPERIENCE">
+                        <ul>
+                           <li><span>2024(june-july)</span><br>Internship at Encryptix</li>
+                           <li><span>Web Technology</span><br>DIGITAL SHOPPING Website<br>NEW ADVENTURE website<br>MOVIE RECOMMENDATION website</li>
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="EDUCATION">
+                        <ul>
+                           <li><span>B.TECH - (2021-2025)</span><br>G.Pullaiah College Of Engineering & Technology  Kurnool.</li>
+                           <li><span>INTER - (2019-2021)</span><br>Sri Chaitanya Junior College Tirupathi</li>
+                           <li><span>SSC - (2018-2019)</span><br>Z.P.H School Chitvel</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>FRONTEND DEVELOPER</h2>
+                <p>I'm a passionate Frontend Developer with a strong foundation in HTML, CSS, and JavaScript, coupled with expertise in modern frameworks like React, Angular, and Vue.js.
+                     My goal is to transform complex designs into responsive, user-friendly interfaces that provide a seamless experience across all devices.
+
+                    I thrive on the challenges of bringing creative visions to life, ensuring that each website or application I work on is not only visually appealing but also highly functional and accessible. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>BACKEND DEVELOPER</h2>
+                <p>As a passionate backend developer, I specialize in designing and implementing robust, scalable, and efficient server-side
+                     applications. My expertise spans various programming languages, databases, and cloud services, allowing me to build secure and reliable systems that power seamless user experiences.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>WEB DESIGN</h2>
+                <p>Passionate and detail-oriented web designer with , user-friendly websites.
+                     Proficient in HTML, CSS, JavaScript, and responsive design principles, I specialize in translating brand identity into engaging digital experiences. 
+                     With a strong focus on UI/UX, I aim to blend aesthetics with functionality, ensuring seamless
+                     user journeys across all devices. Let's connect and bring your web vision to life!</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--- Portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="first.avif" alt="">
+                <div class="layer">
+                    <h3>NEW_ADVENTURE</h3>
+                    <p>New Adventure is an engaging and interactive web application designed to offer users a virtual
+                        journey through various global destinations.
+                        This project emphasizes a visually appealing and user-friendly interface, using HTML, CSS, and JavaScript
+                        to deliver animmersive experience. 
+                        </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="second.avif" alt="">
+                <div class="layer">
+                    <h3>MOVIE_RECOMMENDATION</h3>
+                    <p>Developed a genre-based movie recommendation system using HTML, CSS, and JavaScript. 
+                        The system allows users to select their favorite genres and dynamically provides tailored movie suggestions. 
+                        Created a responsive and visually appealing interface using CSS, while JavaScript handles the logic for filtering movies by genre and displaying recommendations.
+                         </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="third.avif" alt="">
+                <div class="layer">
+                    <h3>DIGITAL_SHOPPING</h3>
+                    <p>project involved creating a responsive and visually appealing online shopping platform. 
+                        I focused on crafting a clean and intuitive user interface with HTML and CSS, ensuring that the site is accessible across various devices.
+                         With JavaScript, I added dynamic features like an interactive shopping cart, product filters, and real-time updates. 
+                         .
+                         </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!--- contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>vaishnavioruganti2003@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9198765432</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/invites/contact/?igsh=i0auidgvjskn&utm_content=poigigx"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/vaishnavi-oruganti-53a93a2ab/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="VAISHNAVI_RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fas fa-heart"></i>Vaishnavi  Oruganti</p>
+    </div>
+ 
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents  = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+            }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwG8pePcz1_2araMMDAECbuypfJVCESgGLOnTkTMjUl-l95E7umPS06eXJKbvySvuf_/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
